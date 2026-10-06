@@ -1,0 +1,66 @@
+                              Project - ATM
+
+Development of Problem Statement
+
+Aim
+To develop the problem statement for the Automated Teller Machine (ATM) System.
+
+Problem Statement
+The existing manual banking system requires customers to visit a physical bank branch during limited operating hours for basic financial activities. This leads to long waiting queues, excessive paperwork, and limited accessibility for urgent transactions. Furthermore, manual balance inquiries and cash withdrawals increase the administrative workload on bank tellers.
+The ATM System provides a 24/7 automated self-service platform where users can securely authenticate themselves, withdraw cash, deposit funds, check balances, and transfer money instantly without human intervention.
+
+Objectives
+• Eliminate dependency on bank operating hours by providing 24/7 service.
+• Reduce manual workload on bank tellers for routine inquiries and transactions.
+• Secure financial data and user authentication using multi-factor mechanisms (Card + PIN).
+• Provide real-time updates for account balances and transaction ledgers.
+• Enhance processing speed for cash dispensing and card verification.
+
+Modules
+• Login Module: Reads card data and verifies the user's secure 4-digit PIN.
+• Withdrawal Module: Validates the account balance and dispenses cash from the machine.
+• Deposit Module: Accepts physical cash or checks and updates account totals.
+• Inquiry Module: Displays real-time account balances and generates mini-statements.
+• PIN Management Module: Allows users to securely change or reset their access PIN.
+• Admin Module: Enables bank technicians to restock cash, pull system logs, and perform maintenance.
+
+Result
+The problem statement for the Automated Teller Machine (ATM) System was successfully developed.
+
+
+
+2.Software Requirement Specification (SRS)
+
+Aim
+To prepare the Software Requirement Specification document for the Automated Teller Machine (ATM) System.
+
+Functional Requirements
+• User Login: Validates the inserted card and the 4-digit PIN.
+• Cash Withdrawal: Dispenses cash after verifying account balance and machine capacity.
+• Cash Deposit: Accepts physical currency and updates the account total.
+• Balance Inquiry: Displays the real-time available funds in the account.
+• Mini-Statement: Prints or displays a summary of the last few transactions.
+• PIN Change: Updates the user's security PIN in the database.
+• Admin Mode: Tracks cash levels and logs hardware maintenance tasks.
+
+Non-Functional Requirements
+• Security: Encrypts user PINs and locks the card after 3 failed attempts.
+• Reliability: Recovers transaction records automatically if a system crash occurs.
+• Performance: Executes cash dispensing and balance requests in under 5 seconds.
+• Availability: Stays online 24/7 with a 99.9% target uptime.
+• Usability: Provides clear touchscreen menus and multilingual support.
+
+Hardware Requirements
+• Processor: Intel Core i3 or above
+• RAM: 4 GB
+• Hard Disk: 20 GB
+
+Software Requirements
+• Operating System: Windows 10/11
+• Frontend Tech: HTML, CSS, JavaScript (or Java Swing / Python Tkinter if building a desktop simulation)
+• Backend Tech: PHP (or Java / Python)
+• Database: MySQL
+• Web Browser: Google Chrome
+
+Result
+Software Requirement Specification was prepared successfully.
